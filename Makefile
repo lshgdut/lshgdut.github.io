@@ -1,4 +1,7 @@
 # myweng 1.0
 
-save:
+push:
 	git add -A && git commit -m "deploy" && git push origin source || exit 0
+
+build:
+	hexo deploy
