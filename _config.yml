@@ -7,7 +7,7 @@ title: Hexo
 subtitle:
 description:
 author: John Doe
-language: 
+language:
 timezone:
 
 # URL
@@ -68,4 +68,6 @@ theme: tranquilpeak
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/lshgdut/lshgdut.github.io.git
+  branch: master
