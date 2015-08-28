@@ -3,6 +3,6 @@
 push:
 	git add -A && git commit -m "deploy" && git push origin source || exit 0
 
-deploy:push
+deploy:
 	hexo generate
 	hexo deploy
