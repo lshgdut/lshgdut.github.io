@@ -6,3 +6,5 @@ push:
 deploy:
 	hexo generate
 	hexo deploy
+
+all:deploy push

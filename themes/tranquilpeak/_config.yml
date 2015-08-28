@@ -153,6 +153,7 @@ tag_pagination: true
 # Integrated services
 # Your Disqus shortname
 disqus_shortname:
+duoshuo_shortname: myweng
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 baidu_analytics_id: 14a793b41c821de39351f4003954a2a1
