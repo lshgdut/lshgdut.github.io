@@ -1,6 +1,8 @@
 title: git-cli
 date: 2015-08-30 12:26:35
-tags: git cli
+tags:
+    - git
+    - cli
 ---
 [From] [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 

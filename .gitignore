@@ -29,3 +29,4 @@ node_modules
 # hexo deploy directory
 public
 .deploy_git
+db.json

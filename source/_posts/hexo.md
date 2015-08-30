@@ -1,6 +1,6 @@
 title: hexo
 date: 2015-08-30 14:59:44
-tags:
+tags: hexo
 ---
 >整理&收录一些hexo的资料
 
