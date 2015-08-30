@@ -62,6 +62,8 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+sitemap:
+    path: sitemap.xml
 ## Themes: http://hexo.io/themes/
 theme: tranquilpeak
 
