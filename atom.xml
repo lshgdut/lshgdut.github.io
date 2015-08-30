@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://lshgdut.github.io/"/>
-  <updated>2015-08-30T06:57:04.000Z</updated>
+  <updated>2015-08-30T07:08:29.000Z</updated>
   <id>http://lshgdut.github.io/</id>
   
   <author>
@@ -15,17 +15,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[markdown]]></title>
+    <link href="http://lshgdut.github.io/2015/08/30/markdown/"/>
+    <id>http://lshgdut.github.io/2015/08/30/markdown/</id>
+    <published>2015-08-30T06:59:54.000Z</published>
+    <updated>2015-08-30T07:08:29.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了</p>
+</blockquote>
+<ul>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">markdown 语法介绍</a></li>
+<li><a href="https://help.github.com/articles/markdown-basics/" target="_blank" rel="external">github markdown basic</a></li>
+<li><a href="https://help.github.com/articles/github-flavored-markdown/" target="_blank" rel="external">GitHub Flavored Markdown</a></li>
+<li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external">GitHub Mastering Markdown</a></li>
+<li><a href="https://help.github.com/articles/writing-on-github/" target="_blank" rel="external">Writing on GitHub</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了</p>
+</blockquote>
+<ul>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" ta]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo]]></title>
+    <link href="http://lshgdut.github.io/2015/08/30/hexo/"/>
+    <id>http://lshgdut.github.io/2015/08/30/hexo/</id>
+    <published>2015-08-30T06:59:44.000Z</published>
+    <updated>2015-08-30T07:04:46.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>整理&amp;收录一些hexo的资料</p>
+</blockquote>
+<ul>
+<li><a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" rel="external">hexo 中文指南</a></li>
+<li><a href="http://www.aips.me/hexo-independent-blog-new-ways.html" target="_blank" rel="external">hexo 建站指南</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>整理&amp;收录一些hexo的资料</p>
+</blockquote>
+<ul>
+<li><a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" r]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[git-cli]]></title>
     <link href="http://lshgdut.github.io/2015/08/30/git-cli/"/>
     <id>http://lshgdut.github.io/2015/08/30/git-cli/</id>
     <published>2015-08-30T04:26:35.000Z</published>
-    <updated>2015-08-30T06:57:04.000Z</updated>
-    <content type="html"><![CDATA[<p>[From] (git - 简明指南)[<a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">http://rogerdudler.github.io/git-guide/index.zh.html</a>]</p>
+    <updated>2015-08-30T06:59:29.000Z</updated>
+    <content type="html"><![CDATA[<p>[From] <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">git - 简明指南</a></p>
 <p>老早就想整理份git命令的脑图，一直以各种理由为自己开脱，今天总算得有个交待了。</p>
 <p><img src="http://7xlgm8.com1.z0.glb.clouddn.com/git.png" alt="git-cli"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>[From] (git - 简明指南)[<a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">http://rogerdudler.gith]]>
+    <![CDATA[<p>[From] <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">git - 简明指南</a></p>
+<p>老早就想整理份git命令的脑]]>
     </summary>
     
       <category term="git cli" scheme="http://lshgdut.github.io/tags/git-cli/"/>
