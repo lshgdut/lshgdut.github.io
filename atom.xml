@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://lshgdut.github.io/"/>
-  <updated>2015-08-28T14:03:09.000Z</updated>
+  <updated>2015-08-30T06:57:04.000Z</updated>
   <id>http://lshgdut.github.io/</id>
   
   <author>
@@ -15,19 +15,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[baidu_analytics]]></title>
-    <link href="http://lshgdut.github.io/2015/08/28/baidu-analytics/"/>
-    <id>http://lshgdut.github.io/2015/08/28/baidu-analytics/</id>
-    <published>2015-08-28T14:01:21.000Z</published>
-    <updated>2015-08-28T14:03:09.000Z</updated>
-    <content type="html"><![CDATA[<p>增加百度分析</p>
+    <title><![CDATA[git-cli]]></title>
+    <link href="http://lshgdut.github.io/2015/08/30/git-cli/"/>
+    <id>http://lshgdut.github.io/2015/08/30/git-cli/</id>
+    <published>2015-08-30T04:26:35.000Z</published>
+    <updated>2015-08-30T06:57:04.000Z</updated>
+    <content type="html"><![CDATA[<p>[From] (git - 简明指南)[<a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">http://rogerdudler.github.io/git-guide/index.zh.html</a>]</p>
+<p>老早就想整理份git命令的脑图，一直以各种理由为自己开脱，今天总算得有个交待了。</p>
+<p><img src="http://7xlgm8.com1.z0.glb.clouddn.com/git.png" alt="git-cli"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>增加百度分析</p>
-]]>
+    <![CDATA[<p>[From] (git - 简明指南)[<a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">http://rogerdudler.gith]]>
     </summary>
     
-      <category term="百度分析" scheme="http://lshgdut.github.io/tags/%E7%99%BE%E5%BA%A6%E5%88%86%E6%9E%90/"/>
+      <category term="git cli" scheme="http://lshgdut.github.io/tags/git-cli/"/>
     
   </entry>
   
