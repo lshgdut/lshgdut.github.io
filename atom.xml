@@ -1,114 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[lshgdut]]></title>
+  <title>lshgdut</title>
+  
   
   <link href="/atom.xml" rel="self"/>
+  
   <link href="http://lshgdut.github.io/"/>
-  <updated>2015-08-30T07:43:09.000Z</updated>
+  <updated>2017-12-13T16:05:48.000Z</updated>
   <id>http://lshgdut.github.io/</id>
   
   <author>
-    <name><![CDATA[Armand]]></name>
+    <name>Armand</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[markdown]]></title>
+    <title>sass-context-no-such-file</title>
+    <link href="http://lshgdut.github.io/2017/12/14/sass-context-no-such-file/"/>
+    <id>http://lshgdut.github.io/2017/12/14/sass-context-no-such-file/</id>
+    <published>2017-12-13T16:03:36.000Z</published>
+    <updated>2017-12-13T16:05:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装 node-sass 过程中出现 <code>fatal error: sass/context.h: No such file or directory</code></p><p>解决办法：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">LIBSASS_EXT=&quot;no&quot; npm install</span><br></pre></td></tr></table></figure><p>摘自： <a href="https://github.com/sass/node-sass/issues/2010" target="_blank" rel="noopener">https://github.com/sass/node-sass/issues/2010</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安装 node-sass 过程中出现 &lt;code&gt;fatal error: sass/context.h: No such file or directory&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://lshgdut.github.io/tags/hexo/"/>
+    
+      <category term="sass" scheme="http://lshgdut.github.io/tags/sass/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown</title>
     <link href="http://lshgdut.github.io/2015/08/30/markdown/"/>
     <id>http://lshgdut.github.io/2015/08/30/markdown/</id>
     <published>2015-08-30T06:59:54.000Z</published>
     <updated>2015-08-30T07:43:09.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了</p>
-</blockquote>
-<ul>
-<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">markdown 语法介绍</a></li>
-<li><a href="https://help.github.com/articles/markdown-basics/" target="_blank" rel="external">github markdown basic</a></li>
-<li><a href="https://help.github.com/articles/github-flavored-markdown/" target="_blank" rel="external">GitHub Flavored Markdown</a></li>
-<li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external">GitHub Mastering Markdown</a></li>
-<li><a href="https://help.github.com/articles/writing-on-github/" target="_blank" rel="external">Writing on GitHub</a></li>
-</ul>
-]]></content>
+    
+    <content type="html"><![CDATA[<blockquote><p>一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了</p></blockquote><ul><li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="noopener">markdown 语法介绍</a></li><li><a href="https://help.github.com/articles/markdown-basics/" target="_blank" rel="noopener">github markdown basic</a></li><li><a href="https://help.github.com/articles/github-flavored-markdown/" target="_blank" rel="noopener">GitHub Flavored Markdown</a></li><li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">GitHub Mastering Markdown</a></li><li><a href="https://help.github.com/articles/writing-on-github/" target="_blank" rel="noopener">Writing on GitHub</a></li></ul>]]></content>
+    
     <summary type="html">
-    <![CDATA[<blockquote>
-<p>一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了</p>
-</blockquote>
-<ul>
-<li><a href="http://daringfireball.net/projects/markdown/syntax" ta]]>
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;一些markdown的资料收集,等有空了再整理成脑图，嗯，等有空了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot; ta
+      
+    
     </summary>
+    
     
       <category term="markdown" scheme="http://lshgdut.github.io/tags/markdown/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[hexo]]></title>
+    <title>hexo</title>
     <link href="http://lshgdut.github.io/2015/08/30/hexo/"/>
     <id>http://lshgdut.github.io/2015/08/30/hexo/</id>
     <published>2015-08-30T06:59:44.000Z</published>
     <updated>2015-08-30T07:43:02.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>整理&amp;收录一些hexo的资料</p>
-</blockquote>
-<ul>
-<li><a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" rel="external">hexo 中文指南</a></li>
-<li><a href="http://www.aips.me/hexo-independent-blog-new-ways.html" target="_blank" rel="external">hexo 建站指南</a></li>
-</ul>
-]]></content>
+    
+    <content type="html"><![CDATA[<blockquote><p>整理&amp;收录一些hexo的资料</p></blockquote><ul><li><a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" rel="noopener">hexo 中文指南</a></li><li><a href="http://www.aips.me/hexo-independent-blog-new-ways.html" target="_blank" rel="noopener">hexo 建站指南</a></li></ul>]]></content>
+    
     <summary type="html">
-    <![CDATA[<blockquote>
-<p>整理&amp;收录一些hexo的资料</p>
-</blockquote>
-<ul>
-<li><a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" r]]>
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;整理&amp;amp;收录一些hexo的资料&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.jikexueyuan.com/project/hexo-document/&quot; target=&quot;_blank&quot; r
+      
+    
     </summary>
+    
     
       <category term="hexo" scheme="http://lshgdut.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[git-cli]]></title>
+    <title>git-cli</title>
     <link href="http://lshgdut.github.io/2015/08/30/git-cli/"/>
     <id>http://lshgdut.github.io/2015/08/30/git-cli/</id>
     <published>2015-08-30T04:26:35.000Z</published>
     <updated>2015-08-30T07:58:56.000Z</updated>
-    <content type="html"><![CDATA[<p>[From] <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">git - 简明指南</a></p>
-<p>老早就想整理份git命令的脑图，一直以各种理由为自己开脱，今天总算得有个交待了。</p>
-<p><img src="http://7xlgm8.com1.z0.glb.clouddn.com/git.png" alt="git-cli"></p>
-]]></content>
+    
+    <content type="html"><![CDATA[<p>[From] <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">git - 简明指南</a></p><p>老早就想整理份git命令的脑图，一直以各种理由为自己开脱，今天总算得有个交待了。</p><p><img src="http://7xlgm8.com1.z0.glb.clouddn.com/git.png" alt="git-cli"></p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>[From] <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">git - 简明指南</a></p>
-<p>老早就想整理份git命令的脑]]>
+    
+      
+      
+        &lt;p&gt;[From] &lt;a href=&quot;http://rogerdudler.github.io/git-guide/index.zh.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;git - 简明指南&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;老早就想整理份git命令的脑
+      
+    
     </summary>
     
-      <category term="cli" scheme="http://lshgdut.github.io/tags/cli/"/>
     
       <category term="git" scheme="http://lshgdut.github.io/tags/git/"/>
+    
+      <category term="cli" scheme="http://lshgdut.github.io/tags/cli/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://lshgdut.github.io/2015/08/26/hello-world/"/>
-    <id>http://lshgdut.github.io/2015/08/26/hello-world/</id>
-    <published>2015-08-26T09:25:59.000Z</published>
+    <title>Hello World</title>
+    <link href="http://lshgdut.github.io/2015/08/25/hello-world/"/>
+    <id>http://lshgdut.github.io/2015/08/25/hello-world/</id>
+    <published>2015-08-25T07:35:55.000Z</published>
     <updated>2015-08-25T07:35:55.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+      
+    
     </summary>
+    
     
   </entry>
   
