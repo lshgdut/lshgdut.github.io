@@ -6,4 +6,4 @@ push:
 deploy:
 	hexo deploy -g
 
-all:deploy push
+all: deploy push
