@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lshgdut.github.io/2017/12/19/use-mysql-in-docker/</loc>
+    
+    <lastmod>2017-12-21T15:32:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://lshgdut.github.io/2017/12/14/sass-context-no-such-file/</loc>
     
     <lastmod>2017-12-13T16:05:48.000Z</lastmod>
