@@ -123,4 +123,57 @@ GENERATED ROOT PASSWORD: .....
 
 ### 数据文件的存储
 
+官方的描述太啰嗦了，简化下用两步描述：
+1. 需要在自己的设备上创建个目录 `/my/own/datadir` 
+2. 之后把 自己的目录 挂到docker的mysql数据目录，比如 `/var/lib/mysql`，
+	这样在docker操作的数据都会保存在本地的 `/my/own/datadir`
+
+```
+➜  blog git:(source) docker run --rm --name some-mysql -v /my/own/datadir:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+```
+
+注：如果执行上述命令后，`docker ps` 看不到运行中的容器，则应该启动失败了
+
+1. 执行 `docker ps -a` 找到相应的容器id
+
+```
+docker ps -as
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES               SIZE
+a10b4388544a        mysql               "docker-entrypoint..."   12 days ago         Exited (1) About a minute ago                       some-mysql          0 B (virtual 408 MB)
+0207afdfdb1d        nginx               "nginx -g 'daemon ..."   3 weeks ago         Exited (0) 10 days ago                              webserver           0 B (virtual 108 MB)
+```
+
+2. 查看后台日志看下，可以看到目录不为空，因此清空目录重新启动docker即可
+
+```
+➜  blog git:(source) docker logs a10b4388544a
+Initializing database
+2017-12-10T18:05:52.807511Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-12-10T18:05:52.811287Z 0 [ERROR] --initialize specified but the data directory has files in it. Aborting.
+2017-12-10T18:05:52.811522Z 0 [ERROR] Aborting
+```
+
+
 ### 创建数据库dumps文件
+
+先在docker中创建个数据库做为测试
+
+```
+docker exec -t 88275bc8f190 sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD" -e "create database test-mysql;"'
+```
+
+然后即可执行下面语句进行数据dump
+
+```
+➜  blog git:(source) ✗ docker exec some-mysql sh -c 'exec mysqldump --all-databases -uroot -p"$MYSQL_ROOT_PASSWORD"' > /my/own/datadir/test.sql
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+```
+
+看下dumps出来的数据文件是否包含测试的数据库`testmysql`
+
+```
+➜  data cat test.sql | grep testmysql
+-- Current Database: `testmysql`
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `testmysql` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `testmysql`;
+```
